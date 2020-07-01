@@ -94,7 +94,8 @@ populated config files : C:\Users\puzheng\Anaconda3\condarc
 
  
 
-(Tested by Pu Zheng, 2020.06.15) 
+(Tested by Pu Zheng, 2020.06.15,
+ Updated by Pu Zheng, 2020.07.01) 
 
  
 
