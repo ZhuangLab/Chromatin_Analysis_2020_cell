@@ -6,6 +6,8 @@ by Pu Zheng
 
 2020.06.15
 
+(update, 2020.06.30)
+
 Example code in this folder has been verified and tested by the following installation steps on Windows Server 2019 (should be similar in Windows 10)
 
 1. Install anaconda 3 ( version for 64-bit python 3.7 is recommended) 
@@ -80,7 +82,7 @@ populated config files : C:\Users\puzheng\Anaconda3\condarc
 
 2. Clone the Chromatin_Tracing_Analysis repository through: 
 
-    git clone https://github.com/zhengpuas47/Chromatin_Tracing_Analysis.git 
+    git clone git@github.com:ZhuangLab/Chromatin_Analysis.git
 
 3. Open corresponding terminal, install required packages by: 
 
