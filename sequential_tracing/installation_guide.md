@@ -6,7 +6,7 @@ by Pu Zheng
 
 2020.06.15
 
-(update, 2020.06.30)
+(update, 2020.06.30, updated, 2020.07.09)
 
 Example code in this folder has been verified and tested by the following installation steps on Windows Server 2019 (should be similar in Windows 10)
 
@@ -80,17 +80,17 @@ populated config files : C:\Users\puzheng\Anaconda3\condarc
            offline mode : False 
 ```
 
-2. Clone the Chromatin_Tracing_Analysis repository through: 
+2. Clone the Chromatin_Analysis_2020_cell repository through: 
 
-    git clone git@github.com:ZhuangLab/Chromatin_Analysis.git
+    git clone git@github.com:ZhuangLab/Chromatin_Analysis_2020_cell.git
 
-3. Open corresponding terminal, install required packages by: 
+3. Open the corresponding terminal (or cmd), install required packages by: 
 
     conda install biopython 
 
     pip install opencv-python 
 
-4. Download data, open jupyter and run through all boxes. 
+4. Download data from: , open jupyter and run through all boxes. 
 
  
 

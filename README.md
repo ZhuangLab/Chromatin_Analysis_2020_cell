@@ -1,4 +1,4 @@
-# Chromatin_Tracing_Analysis
+# Chromatin_Analysis for 2020 Cell
 
 Repository for codes analyzing sequential and combinatorial choromatin imaging data
 
@@ -20,15 +20,19 @@ These functions are intended to be used with Phyton 2.7
 
     b. ImageAnalysis - contains a Jupyter notebook (.ipynb) file with example scripts used to analyse the raw microscopy images and obtain a set of 3D postions of the genomic loci in chromosomes of each individual cells.
 
-    c. PostAnalysis - contains example scripts to statistically analyze the 3D single-cell positions.
+    c. PostAnalysis - contains example scripts to statistically analyze the 3D single-cell positions to reproduce reported results in the paper. 
+    
+    d. LibraryDesign - contains example scripts to generate encoding/primary probe libraries for sequential tracing experiment. 
 
-These functions are compatible with Python 3.7 (Anaconda distribution, newest release). Please see further detailed installation guide in sequential_tracing folder. 
+These functions are compatible with Python 3.7 (Anaconda distribution, release for 2020.02). Please see further detailed installation guide in sequential_tracing folder. 
 
-3. Data - contains tab delimited files with the 3D positions of the chromatin loci imaged in each cell and, where available the transcriptional activity, the distance from the nuclear landmarks measured and the cell-cycle state.
+The corresponding datasets could be found by DOI: 10.5281/zenodo.3928890
 
+If you happened to use our codes or dataset, please cite: [Link to the paper]()
+[a place holder for paper citation]
 
-The algoritms writen by Bogdan Bintu, Pu Zheng, Seon Kinrot and Jun-Han Su.
+Contributors: Bogdan Bintu, Pu Zheng, Seon Kinrot, Jun-Han Su and Xiaowei Zhuang.
 
-Correspondence: Bogdan Bintu (bbintu -at- g.harvard.edu) and Xiaowei Zhuang.
+Correspondence: Bogdan Bintu (bbintu -at- g.harvard.edu), Pu ZHeng (pu_zheng -at- g.harvard.edu) and Xiaowei Zhuang (zhuang -at- chemistry.harvard.edu).
 
-June 6th, 2020
+July 9th, 2020
