@@ -2,7 +2,7 @@
 
 Repository for codes analyzing sequential and combinatorial choromatin imaging data
 
-This repository contains two main sections, as following:
+This repository contains two main sections:
 
 1. Combinatorial_tracing - contains the code and examples scripts used for analysing to combinatorial genome-scale chromatin tracing data. Code is separated into seaparate categories, each contained in an individual sub-folder. Each of these sub-folders contains a "functions" folder, in which all functions and classses are defined in .py files. In addition, it contains Jupyter notebook (.ipynb) files, demonstrating the use of the functions:
 
@@ -26,13 +26,15 @@ These functions are intended to be used with Phyton 2.7
 
 These functions are compatible with Python 3.7 (Anaconda distribution, release for 2020.02). Please see further detailed installation guide in sequential_tracing folder. 
 
-The corresponding datasets could be found by DOI: 10.5281/zenodo.3928890
 
-If you happened to use our codes or dataset, please cite: [Link to the paper]()
-[a place holder for paper citation]
+* Data download: The corresponding datasets could be found by DOI: 10.5281/zenodo.3928890
 
-Contributors: Bogdan Bintu, Pu Zheng, Seon Kinrot, Jun-Han Su and Xiaowei Zhuang.
+* Citation: If you happened to use our codes or dataset, please cite: [Link to the paper]()
 
-Correspondence: Bogdan Bintu (bbintu -at- g.harvard.edu), Pu ZHeng (pu_zheng -at- g.harvard.edu) and Xiaowei Zhuang (zhuang -at- chemistry.harvard.edu).
+    [This is a place holder for paper citation]
+
+* Contributors: Bogdan Bintu, Pu Zheng, Seon Kinrot, Jun-Han Su and Xiaowei Zhuang.
+
+* Correspondence: Bogdan Bintu (bbintu -at- g.harvard.edu), Pu Zheng (pu_zheng -at- g.harvard.edu) and Xiaowei Zhuang (zhuang -at- chemistry.harvard.edu).
 
 July 9th, 2020
