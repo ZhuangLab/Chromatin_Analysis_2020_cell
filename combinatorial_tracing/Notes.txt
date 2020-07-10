@@ -1,0 +1,5 @@
+This contains the code for analyzing the combinatorial chromatin tracing data.
+It includes 3 folders:
+"GenerateEncodingProbes" - used to generate the encoding probes to target DNA and intronic RNA.
+"ImageAnalysis" - used to transform the raw image data into positional data.
+"PostAnalysis" - used to analyze the positions of the chromatin loci post ImageAnalysis.
