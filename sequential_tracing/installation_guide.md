@@ -8,75 +8,70 @@ by Pu Zheng
 
 Example code in this folder has been verified and tested by the following installation steps on Windows Server 2019 (should be similar in Windows 10)
 
-1. Install anaconda 3 ( version for 64-bit python 3.7 is recommended) 
+1. Install [Anaconda3](https://repo.anaconda.com/archive/) ( version for 64-bit python 3.7 is recommended) and go through typical installation procedure. 
 
-    https://www.anaconda.com/products/individual  
+    This is what I got from conda info after installtion: 
+    ```
+        active environment : None 
 
-    and go through typical installation procedure. 
+          user config file : C:\Users\puzheng\.condarc 
 
-  This is what I got from conda info: 
-  ```
+    populated config files : C:\Users\puzheng\Anaconda3\condarc 
 
-      active environment : None 
+              conda version : 4.8.3 
 
-        user config file : C:\Users\puzheng\.condarc 
+        conda-build version : 3.18.11 
 
-  populated config files : C:\Users\puzheng\Anaconda3\condarc 
+            python version : 3.7.6.final.0 
 
-            conda version : 4.8.3 
+          virtual packages : 
 
-      conda-build version : 3.18.11 
+          base environment : C:\Users\puzheng\.local\conda_root  (read only) 
 
-          python version : 3.7.6.final.0 
+              channel URLs : https://your.repo/binstar_username/win-64 
 
-        virtual packages : 
+                              https://your.repo/binstar_username/noarch 
 
-        base environment : C:\Users\puzheng\.local\conda_root  (read only) 
+                              http://some.custom/channel/win-64 
 
-            channel URLs : https://your.repo/binstar_username/win-64 
+                              http://some.custom/channel/noarch 
 
-                            https://your.repo/binstar_username/noarch 
+                              https://repo.anaconda.com/pkgs/main/win-64 
 
-                            http://some.custom/channel/win-64 
+                              https://repo.anaconda.com/pkgs/main/noarch 
 
-                            http://some.custom/channel/noarch 
+                              https://repo.anaconda.com/pkgs/r/win-64 
 
-                            https://repo.anaconda.com/pkgs/main/win-64 
+                              https://repo.anaconda.com/pkgs/r/noarch 
 
-                            https://repo.anaconda.com/pkgs/main/noarch 
+                              https://repo.anaconda.com/pkgs/msys2/win-64 
 
-                            https://repo.anaconda.com/pkgs/r/win-64 
+                              https://repo.anaconda.com/pkgs/msys2/noarch 
 
-                            https://repo.anaconda.com/pkgs/r/noarch 
+              package cache : C:\Users\puzheng\my-pkgs 
 
-                            https://repo.anaconda.com/pkgs/msys2/win-64 
+                              C:\opt\anaconda\pkgs 
 
-                            https://repo.anaconda.com/pkgs/msys2/noarch 
+          envs directories : C:\Users\puzheng\my-envs 
 
-            package cache : C:\Users\puzheng\my-pkgs 
+                              C:\opt\anaconda\envs 
 
-                            C:\opt\anaconda\pkgs 
+                              C:\Users\puzheng\.conda\envs 
 
-        envs directories : C:\Users\puzheng\my-envs 
+                              C:\Users\puzheng\.local\conda_root\envs 
 
-                            C:\opt\anaconda\envs 
+                              C:\Users\puzheng\AppData\Local\conda\conda\envs 
 
-                            C:\Users\puzheng\.conda\envs 
+                  platform : win-64 
 
-                            C:\Users\puzheng\.local\conda_root\envs 
+                user-agent : conda/4.8.3 requests/2.22.0 CPython/3.7.6 Windows/10 Windows/10.0.17763 
 
-                            C:\Users\puzheng\AppData\Local\conda\conda\envs 
+              administrator : False 
 
-                platform : win-64 
+                netrc file : None 
 
-              user-agent : conda/4.8.3 requests/2.22.0 CPython/3.7.6 Windows/10 Windows/10.0.17763 
-
-            administrator : False 
-
-              netrc file : None 
-
-            offline mode : False 
-  ```
+              offline mode : False 
+    ```
 
 2. Clone the Chromatin_Analysis_2020_cell repository through: 
 
@@ -84,21 +79,21 @@ Example code in this folder has been verified and tested by the following instal
     git clone git@github.com:ZhuangLab/Chromatin_Analysis_2020_cell.git
     ```
 
-3. Open the corresponding terminal (or cmd), install required packages by: 
+3. Open the corresponding terminal (or cmd), install required packages in your preferred environment by: 
 
     ```
     conda install biopython 
     pip install opencv-python 
     ```
 
-4. Download data from: Zenodo with **DOI:10.5281/zenodo.3928890**, open jupyter and run through all boxes. 
+4. If you hope to reproduce [PostAnalysis](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/PostAnalysis) Download data from: Zenodo with **DOI:10.5281/zenodo.3928890**, open jupyter and run through all boxes. 
 
- 
 
-(Tested by Pu Zheng, 2020.06.15,
- Updated by Pu Zheng, 2020.06.30,
- Updated by Pu Zheng, 2020.07.01,
- Updated by Pu Zheng, 2020.07.21) 
+>Test Log
+>
+>>Tested by Pu Zheng in Windows 10 Enterprise, version 1809, OS build 17763.720, 2020.06.15.
+>>
+>>Updated by Pu Zheng, 2020.06.30, 2020.07.01, 2020.07.21,
 
  
 
