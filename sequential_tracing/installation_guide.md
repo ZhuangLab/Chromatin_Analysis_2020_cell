@@ -1,12 +1,10 @@
-# Chromatin_Tracing_Analysis
+# Sequential tracing for chromosome-wide imaging
 
-## Sequential tracing for chromosome-wide imaging
+## Installtion guide
 
 by Pu Zheng
 
 2020.06.15
-
-(update, 2020.06.30, updated, 2020.07.09)
 
 Example code in this folder has been verified and tested by the following installation steps on Windows Server 2019 (should be similar in Windows 10)
 
@@ -16,7 +14,7 @@ Example code in this folder has been verified and tested by the following instal
 
     and go through typical installation procedure. 
 
-This is what I got from conda info: 
+  This is what I got from conda info: 
   ```
 
       active environment : None 
@@ -98,6 +96,7 @@ This is what I got from conda info:
  
 
 (Tested by Pu Zheng, 2020.06.15,
+ Updated by Pu Zheng, 2020.06.30,
  Updated by Pu Zheng, 2020.07.01,
  Updated by Pu Zheng, 2020.07.21) 
 
