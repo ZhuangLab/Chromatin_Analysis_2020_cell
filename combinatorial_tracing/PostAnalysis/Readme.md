@@ -7,7 +7,7 @@ __Part1__MedianDistanceAndProximityMaps__ contents:
 2. Calculate median distance matrices and proximity matrices for cis- and trans- interactions
 (Figure 4 F, Figure S4 B)
 
-3. Compare population average maps deverived from Hi-C to those derived from imaging at the genomic-scale
+3. Compare population average maps derived from Hi-C to those derived from imaging at the genomic-scale
 (Figure S4 C)
 
 __Part2_Trans-chromosomal-Interactions__ contents:
@@ -50,13 +50,13 @@ __Part4_NuclearLandmarks__ contents:
 3. Calculate the median distance from the lamina for A and B regions
 (Figure S5B)
 
-4. Calculate the association rate to the lamina and the nulcear speckles for A and B regions
+4. Calculate the association rate to the lamina and the nuclear speckles for A and B regions
 (Figure 6E,F)
 
 5. Calculate the correlation between association rate to nuclear bodies and transcriptional activity
 (Figure 6J)
 
-6. Caculate the correlation between A/B density and transcriptional activity in different nuclear environments
+6. Calculate the correlation between A/B density and transcriptional activity in different nuclear environments
 (Figure 7D)
 
 __Part5__AmanitinTreatement__ contents:
@@ -71,7 +71,7 @@ __Part5__AmanitinTreatement__ contents:
 4. Calculate the average A/B density ratio across regions
 (Figure S6C)
 
-5. Calculate the change in association rates to lamina/speckles upon treatement with amanitin
+5. Calculate the change in association rates to lamina/speckles upon treatment with amanitin
 (Figure S6F)
 
 __Part6__ProximityMap-nonSpeckleAndLamina__ contents:
