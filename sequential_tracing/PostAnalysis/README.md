@@ -20,10 +20,26 @@ The jupyter notebooks in this folder provide example scripts to further analyze 
     4. Characterization single-cell domains in G1/G2-S cells
 
 2. [Part2_chr21_Compartment_Analysis_with_transcription.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/PostAnalysis/Part2_chr21_Compartment_Analysis_with_transcription.ipynb)
-    This jupyter provides scripts to perform A/B compartment and transcription related analysis for chr21.
+    This jupyter provides scripts to perform A/B compartment and transcription related analysis for chr21:
+
+    1. Load data from deposited datset (two replicates for chr21, with/without cell-cycle information)
+
+    2. Compartment analysis of chr21 
+
+    3. Analysis of A/B density in single-cells
+
+    4. Characterization of compartments in G1, G2/S cells
+
 
 3. [Part3_chr2_Compartment_Analysis_and_Domain_Interaction.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/PostAnalysis/Part3_chr2_Compartment_Analysis_and_Domain_Interaction.ipynb)
-    This jupyter provides scripts to perform A/B compartment and domain-domain interaction related analysis for chr2.
+    This jupyter provides scripts to perform A/B compartment and domain-domain interaction  analysis for chr2.
 
+    1. Load data from deposited datset (two replicates for chr21, with/without cell-cycle information)
 
+    2. Population-averaged description of chr2 (Fig2D, FigS2E-F)
 
+    3. Analysis of A/B density in single-cells (Fig2F, Fig3D, FigS2G)
+
+    4. Domain-domain interaction Analysis and relationship with A/B compartments (Fig3C, E-H)
+
+    5. Compare p-arm of two replicates
