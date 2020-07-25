@@ -24,17 +24,17 @@ The jupyter notebooks in this folder provide example scripts to further analyze 
 
     1. Load data from deposited datset (two replicates for chr21, with/without cell-cycle information)
 
-    2. Compartment analysis of chr21 
+    2. Compartment analysis of chr21 (Fig2A, FigS2A)
 
-    3. Analysis of A/B density in single-cells
+    3. Analysis of A/B density in single-cells (Fig2C,H-I, FigS2B-D)
 
-    4. Characterization of compartments in G1, G2/S cells
+    4. Characterization of compartments in G1, G2/S cells (FigS2D)
 
 
 3. [Part3_chr2_Compartment_Analysis_and_Domain_Interaction.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/PostAnalysis/Part3_chr2_Compartment_Analysis_and_Domain_Interaction.ipynb)
     This jupyter provides scripts to perform A/B compartment and domain-domain interaction  analysis for chr2.
 
-    1. Load data from deposited datset (two replicates for chr21, with/without cell-cycle information)
+    1. Load data from deposited datset (two replicates for chr2)
 
     2. Population-averaged description of chr2 (Fig2D, FigS2E-F)
 
