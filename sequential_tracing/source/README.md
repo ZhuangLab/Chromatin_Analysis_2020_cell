@@ -22,16 +22,17 @@ This package contains functions to support the following analysis:
 
 To properly use functions for this module, function part 1-4 requires:
 
-    1. basic modules from Anaconda dsitribution
-    
-    2. opencv-python
+1. basic modules from Anaconda dsitribution
+
+2. opencv-python
 
 If you hope to use function 5, it further requires:
 
-    3. biopython
+3. biopython
 
-    4. proper compile of seqint.pyd in [library_tools](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/source/library_tools) folder. To compile this cython unit, go to folder: ./library_tools/C_tools and type in: (tested in Windows 10)
-    ```console
+4. proper compile of seqint.pyd in [library_tools](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/source/library_tools) folder. To compile this cython unit, go to folder: ./library_tools/C_tools and type in: (tested in Windows 10)
+
+```console
     cd .\library_tools\C_Tools
     python setup.py install
-    ```
+```
