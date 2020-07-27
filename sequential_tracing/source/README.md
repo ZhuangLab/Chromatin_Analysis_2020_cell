@@ -20,13 +20,14 @@ This package contains functions to support the following analysis:
 
 5. Design primary probe library. 
 
+
 To properly use functions for this module, function part 1-4 requires:
 
 1. basic modules from Anaconda dsitribution
 
 2. opencv-python
 
-If you hope to use function 5, it further requires:
+If you hope to use function part 5, it further requires:
 
 3. biopython
 
