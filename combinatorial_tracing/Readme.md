@@ -2,7 +2,7 @@ This folder contains the code for analyzing the DNA-MERFISH combinatorial chroma
 
 It includes 3 folders:
 
-"GenerateEncodingProbes" - used to generate the encoding probes to target DNA loci or intronic RNA foci.
+"GenerateEncodingProbes" - used to generate the encoding probes to target DNA loci or intronic RNAs.
 
 "ImageAnalysis" - used to transform the raw image data into 3D positional data.
 
