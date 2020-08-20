@@ -8,7 +8,7 @@ by Pu Zheng
 
 This folder contains a jupyter notebook for image analysis workflow:
 
-1. [Example_workflow_sequential_DNA.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/ImageAnalysis/Example_workflow_sequential_DNA.ipynb) in this folder provide example scripts to analyze raw z-stack images for sequential DNA-FISH into spatial coordinates. 
+1. [Example_workflow_sequential_DNA.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/ImageAnalysis/Example_workflow_sequential_DNA.ipynb) in this folder provide example scripts to analyze raw z-stack images of chromatin loci into spatial coordinates. 
 
     1. Initialize Cell_List class
 
@@ -22,8 +22,8 @@ This folder contains a jupyter notebook for image analysis workflow:
 
     6. Multi-fitting candidate spots for chromosomes
 
-    7. Pick spots to acquire region coordinates
+    7. Pick spots to acquire chromatin locus coordinates
 
-    8. Generate population median distance map / contact probability map
+    8. Generate population median spatial distance map / proximity frequency map
 
     9. Save processed data into single file for further analysis
