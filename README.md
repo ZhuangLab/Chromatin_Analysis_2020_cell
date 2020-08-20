@@ -1,4 +1,6 @@
-# Chromatin_Analysis for Cell 2020 (https://doi.org/10.1016/j.cell.2020.07.032)
+# Chromatin_Analysis for Cell 2020 
+
+(https://doi.org/10.1016/j.cell.2020.07.032)
 
 Repository for codes analyzing choromatin imaging data obtained using sequential hybridization or using DNA-MERFISH
 
