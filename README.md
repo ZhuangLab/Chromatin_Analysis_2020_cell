@@ -28,7 +28,7 @@ These functions are intended to be used with Phyton 2.7
 These functions are compatible with Python 3.7 (Anaconda distribution, release for 2020.02). Please see further detailed installation guide in sequential_tracing folder. 
 
 
-* Data download: The corresponding datasets could be found by DOI: 10.5281/zenodo.3928890
+* Data download: The corresponding datasets could be found by DOI: [10.5281/zenodo.3928890](https://zenodo.org/record/3928890)
 
 * Citation: If you happened to use our codes or dataset, please cite: [Jun-Han Su, Pu Zheng, Seon S. Kinrot, Bogdan Bintu, and Xiaowei Zhuang. Genome-Scale Imaging of the 3D Organization and Transcriptional Activity of Chromatin. Cell 2020](https://doi.org/10.1016/j.cell.2020.07.032)
 
