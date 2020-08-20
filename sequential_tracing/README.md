@@ -4,15 +4,15 @@ by Pu Zheng
 
 2020.07.09
 
-This folder provides source codes and example jupyter scripts for sequential DNA-FISH tracing of the whole chromosome structure in single cells.
+This folder provides source codes and example jupyter scripts for analyzing high-resolution chromatin tracing data obtained using sequential hybridization.
 
 Components:
 
-1. [source](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/source) - contains a python module (could be directly imported if it is added to sys.path) contains all the basic functions required for sequential DNA-FISH analysis.
+1. [source](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/source) - contains a python module (could be directly imported if it is added to sys.path) contains all the basic functions required for analyzing chromatin tracing data obtained using sequential hybridization.
 
-2. [ImageAnalysis](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/ImageAnalysis) - contains an example jupyter notebook to demonstrate analysis from raw microscopy images to 3D coordinates of designed genomic loci in individual cells.
+2. [ImageAnalysis](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/ImageAnalysis) - contains an example jupyter notebook to demonstrate analysis from raw microscopy images to 3D coordinates of targeted genomic loci in individual cells.
 
-3. [PostAnalysis](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/PostAnalysis) - contains three jupyter notebooks to perform further analysis and generate figures based on previously obtained 3D coordinates and transcription information.
+3. [PostAnalysis](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/PostAnalysis) - contains three jupyter notebooks to perform further analysis and generate figures based on the 3D coordinates of chromatin loci and transcription information.
 
 4. [LibraryDesign](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/tree/master/sequential_tracing/LibraryDesign) - contains a jupyter notebook to demonstrate our workflow to design a primary oligonucleotide probe library. 
 
