@@ -1,10 +1,9 @@
-# Chromatin_Analysis for 2020 Cell
+# Chromatin_Analysis for Cell 2020 (https://doi.org/10.1016/j.cell.2020.07.032)
 
-Repository for codes analyzing sequential and combinatorial choromatin imaging data
+Repository for codes analyzing choromatin imaging data obtained using sequential hybridization or using DNA-MERFISH
 
 This repository contains two main sections:
-
-1. Combinatorial_tracing - contains the code and examples scripts used for analysing to combinatorial genome-scale chromatin tracing data. Code is separated into seaparate categories, each contained in an individual sub-folder. Each of these sub-folders contains a "functions" folder, in which all functions and classses are defined in .py files. In addition, it contains Jupyter notebook (.ipynb) files, demonstrating the use of the functions:
+1. Combinatorial_tracing - contains the code and examples scripts used for analyzing genome-scale chromatin tracing data obtained using DNA-MERFISH, a combinatorial imaging method to massively multiplex FISH. Code is separated into separate categories, each contained in an individual sub-folder. Each of these sub-folders contains a "functions" folder, in which all functions and classes are defined in .py files. In addition, it contains Jupyter notebook (.ipynb) files, demonstrating the use of the functions:
 
    a. BarcodeGeneration - contains the code and example scripts for generating barcodes and assigning them to genomic loci of interest
 
@@ -14,7 +13,7 @@ This repository contains two main sections:
 
 These functions are intended to be used with Phyton 2.7
 
-2. Sequential_tracing - contains the code and examples scripts for analysing the sequential, chromosome-wide chromatin tracing data. This section is organized in the following sections: 
+2. Sequential_tracing - contains the code and examples scripts for analyzing the high-resolution chromatin tracing data obtained using sequential hybridization. This section is organized in the following sections: 
 
     a. Source - contains all function and classes within .py files which are organized as a module.
 
@@ -29,9 +28,7 @@ These functions are compatible with Python 3.7 (Anaconda distribution, release f
 
 * Data download: The corresponding datasets could be found by DOI: 10.5281/zenodo.3928890
 
-* Citation: If you happened to use our codes or dataset, please cite: [Link to the paper]()
-
-    [This is a place holder for paper citation]
+* Citation: If you happened to use our codes or dataset, please cite: [https://doi.org/10.1016/j.cell.2020.07.032](Jun-Han Su, Pu Zheng, Seon S. Kinrot, Bogdan Bintu, and Xiaowei Zhuang. Genome-Scale Imaging of the 3D Organization and Transcriptional Activity of Chromatin. Cell 2020)
 
 * Contributors: Bogdan Bintu, Pu Zheng, Seon Kinrot, Jun-Han Su and Xiaowei Zhuang.
 
