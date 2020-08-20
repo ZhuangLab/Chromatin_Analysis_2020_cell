@@ -6,7 +6,7 @@ by Pu Zheng
 
 2020.07.21
 
-The jupyter notebooks in this folder provide example scripts to further analyze provided 3D coordinates of targeted chromosomal regions and transcription information from data deposit: **DOI:10.5281/zenodo.3928890**
+The jupyter notebooks in this folder provide example scripts to further analyze provided 3D coordinates of targeted chromosomal loci and transcription information.
 
 1. [Part1_chr21_Domain_Analysis.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/PostAnalysis/Part1_chr21_Domain_Analysis.ipynb)
     This jupyter provides scripts to perform population-averaged and single-cell based domain analysis for chr21 sequential tracing dataset:
@@ -34,11 +34,11 @@ The jupyter notebooks in this folder provide example scripts to further analyze 
 3. [Part3_chr2_Compartment_Analysis_and_Domain_Interaction.ipynb](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell/blob/master/sequential_tracing/PostAnalysis/Part3_chr2_Compartment_Analysis_and_Domain_Interaction.ipynb)
     This jupyter provides scripts to perform A/B compartment and domain-domain interaction  analysis for chr2.
 
-    1. Load data from deposited dataset (two replicates for chr2)
-
+    1. Load data from deposited dataset 
+    
     2. Population-averaged description of chr2 (Fig2D, FigS2E-F)
 
-    3. Analysis of A/B density in single-cells (Fig2F, Fig3D, FigS2G)
+    3. Analysis of A/B density in single-cells (Fig2F, FigS2G, Fig3D)
 
     4. Domain-domain interaction Analysis and relationship with A/B compartments (Fig3C, E-H)
 
