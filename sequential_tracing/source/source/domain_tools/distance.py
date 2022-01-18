@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 from scipy.stats import normaltest, ks_2samp, ttest_ind
 from scipy.spatial.distance import cdist, pdist, squareform
 from scipy.cluster.hierarchy import linkage, dendrogram, to_tree, is_valid_linkage

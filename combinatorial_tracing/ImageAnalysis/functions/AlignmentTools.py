@@ -3,7 +3,7 @@
 
 import numpy as np
 import glob,os
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 ###These are aligment tools for either 3d/2d images or point sets
 
 ##3d images

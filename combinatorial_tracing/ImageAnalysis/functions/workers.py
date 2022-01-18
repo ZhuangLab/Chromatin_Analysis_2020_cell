@@ -1,7 +1,7 @@
 ######### imports
 import numpy as np
 import glob,os,sys
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 import Fitting_v4 as ft
 import time
 

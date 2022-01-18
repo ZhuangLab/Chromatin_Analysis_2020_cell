@@ -3,7 +3,7 @@ import numpy as np
 import pickle as pickle
 import matplotlib 
 matplotlib.rcParams['pdf.fonttype'] = 42
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 plt.rc('font', family='serif')
 plt.rc('font', serif='Arial')
 from matplotlib import cm 

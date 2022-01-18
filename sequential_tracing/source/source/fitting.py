@@ -2,7 +2,7 @@ from . import visual_tools as vis
 from . import drift_corr as dft
 import numpy as np
 import pickle as pickle
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 import os, glob, sys
 sys.path.append(r'C:\Users\puzheng\Documents\python-functions\python-functions-library')
 

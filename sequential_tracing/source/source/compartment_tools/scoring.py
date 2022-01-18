@@ -1,7 +1,7 @@
 # import packages
 import numpy as np
 import glob,sys,os,time
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 import pickle as pickle
 import multiprocessing as mp
 # import functions

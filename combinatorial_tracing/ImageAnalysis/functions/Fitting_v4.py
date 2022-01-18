@@ -417,7 +417,7 @@ def gfit_fast(im_,X_,bk_f=0.1,reconstruct=False,plt_val=False,compare_with_fitti
             eps = np.mean(np.abs(im_-im_fit))
         pfinal = np.array([h,z_,x_,y_,bk,a,b,c,d,e,f,eps])
     if plt_val:
-        import matplotlib.pylab as plt
+        import matplotlib.pyplot as plt
         zs,xs,ys = np.min(X_,1) 
         
         X_im = X_.T-[zs,xs,ys]
@@ -704,7 +704,7 @@ def fft3d_from2d(im1,im2,gb=5,max_disp=150,plt_val=False,return_cor=False):
     if return_cor:
         return np.array([tz,tx,ty]),cor_xy,cor_z
     return np.array([tz,tx,ty])
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 def fftalign_2d(im1,im2,center=[0,0],max_disp=50,plt_val=False,return_cor=False):
     """
     Inputs: 2 2D images <im1>, <im2>, the expected displacement <center>, the maximum displacement <max_disp> around the expected vector.

@@ -1,4 +1,4 @@
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 import numpy as np
 import pickle,os
 from mpl_toolkits.mplot3d import Axes3D

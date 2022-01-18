@@ -8,7 +8,7 @@ from tqdm import tqdm_notebook as tqdm
 #from tqdm import tqdm as tqdm
 import scipy.ndimage as ndi
 from scipy.spatial.distance import cdist
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 
 import cPickle as pickle
 

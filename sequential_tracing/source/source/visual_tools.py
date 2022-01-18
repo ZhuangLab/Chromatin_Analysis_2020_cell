@@ -1,7 +1,7 @@
 import os,re,time,glob
 import numpy as np
 import pickle as pickle
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import ImageGrid
 import scipy
 from scipy.signal import fftconvolve
